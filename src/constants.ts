@@ -7,6 +7,7 @@ import IconWhatsapp from "@/assets/icons/IconWhatsapp.svg";
 import IconFacebook from "@/assets/icons/IconFacebook.svg";
 import IconTelegram from "@/assets/icons/IconTelegram.svg";
 import IconPinterest from "@/assets/icons/IconPinterest.svg";
+import IconBrandInstagram from "@/assets/icons/IconBrandInstagram.svg";
 import { SITE } from "@/config";
 
 interface Social {
@@ -19,7 +20,7 @@ interface Social {
 export const SOCIALS: Social[] = [
   {
     name: "GitHub",
-    href: "https://github.com/satnaing/astro-paper",
+    href: "https://github.com/ajtfati",
     linkTitle: `${SITE.title} on GitHub`,
     icon: IconGitHub,
   },
@@ -31,17 +32,23 @@ export const SOCIALS: Social[] = [
   },
   {
     name: "LinkedIn",
-    href: "https://www.linkedin.com/in/username/",
+    href: "https://www.linkedin.com/in/alexanderjordantaylor/",
     linkTitle: `${SITE.title} on LinkedIn`,
     icon: IconLinkedin,
   },
   {
     name: "Mail",
-    href: "mailto:yourmail@gmail.com",
+    href: "mailto:contact@alexanderjtaylor.com",
     linkTitle: `Send an email to ${SITE.title}`,
     icon: IconMail,
   },
-] as const;
+ {
+    name: "Instagram",
+    href: "https://www.instagram.com/alexanderjordantaylor/",
+    linkTitle: `${SITE.title} on Instagram`,
+    icon: IconBrandInstagram,
+},
+ ]  as const;
 
 export const SHARE_LINKS: Social[] = [
   {
@@ -80,4 +87,10 @@ export const SHARE_LINKS: Social[] = [
     linkTitle: `Share this post via email`,
     icon: IconMail,
   },
+  {
+  name: "Instagram",
+  href: "https://www.instagram.com/", // Instagram has no direct share URL API
+  linkTitle: `Follow on Instagram`,
+  icon: IconBrandInstagram,
+},
 ] as const;
