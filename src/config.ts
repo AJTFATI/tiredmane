@@ -1,6 +1,6 @@
 export const SITE = {
   website: "https://alexanderjtaylor.com", // replace this with your deployed domain
-  author: "A.J Taylor",
+  author: "Alexander J. Taylor",
   profile: "https://alexanderjtaylor.com",
   desc: "Headlines, Hootsuite, and Hoops. Certified J.A.G's take on culture and social media.",
   title: "alexanderjtaylor.com",
